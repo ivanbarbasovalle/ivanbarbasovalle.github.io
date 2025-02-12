@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Belicio | Mx</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="nav container">
+                <h1><img src="images/beliciologo.jpeg" alt="logo de belicio"></h1>
+                <nav>
+                    <ul class="nav_link nav_link--menu">
+                        <li class="nav_items"><a href="index.html" class="nav_links">Inicio</a></li>
+                        <li class="nav_items"><a href="productos.html" class="nav_links">Productos</a></li>
+                        <li class="nav_items"><a href="contacto.html" class="nav_links">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form class="footer_form" action="https://formspree.io/f/xzzdagjy"
+            method="POST">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com" name="email">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+               
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>                
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>11h ~ 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>11h ~ 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>11h ~ 19h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer class="footer">
+            <section class="footer_copy container">
+                <div class="footer_social">
+                    <a href="https://www.facebook.com/share/18WF6KnKZ2/" class="footer_icons"><img src="./images/facebook.svg" class="footer_img"></a>
+                    <a href="https://www.instagram.com/belicio.mx?igsh=MXg2cXh4dnZkdTdmZg==" class="footer_icons"><img src="./images/instagram.svg" class="footer_img"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=2214270709&text&type=phone_number&app_absent=0" class="footer_icons"><img src="./images/whatsapp.svg" class="footer_img"></a>
+                </div>
+                <h3 class="footer_copyright">Derechos reservados &copy; Maribel Aparicio</h3>
+            </section>
+        </footer>
+    </body>
+</html>

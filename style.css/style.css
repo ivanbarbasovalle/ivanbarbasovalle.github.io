@@ -35,7 +35,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/boda\ vestido.jpg');
+    background-image: url('../images/TIENDA\ MODAS.jpeg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -432,6 +432,61 @@ overflow: hidden;
 
 .footer_img{
     width: 30px;
+}
+/*contacto*/
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.input-padron{
+    background-color: #faf8ee;
+    border-radius: 12px;
+    display: block;
+    margin: 0 0 20px;
+    padding: 15px 30px;
+    width: 50%;
+}
+form{
+    background-color: #b1b1b1;
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:#91B7C7;
+    background: #F7E5D7;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: #C6AC8F;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #5E503F;
+    color:#91B7C7;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #22333B;
+    padding: 8px 15px;
 }
  /*medias queries*/
 
